@@ -1,67 +1,96 @@
-HTML 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>A Great Demo on CodePen</title>
-</head>
-<body>
-      <div class="main img1">Main</div>
-   <div class="grid">
-      <div class="items">1</div>
-      <div class="items">1</div>
-      <div class="items">1</div>
-      <div class="items">1</div>
-      <div class="items img_photo"></div>
-      <div class="items">1</div>
-                  <div>
-      </body>
-</html>
+HTML
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Great Demo on CodePen</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo"</div>
+      </div>
+      <div class="subscribelogo"</div>
+    </div>
+      <div class="follow"</div>
+    </div>
+      <div class="text_center"</div>
+</div>
+<div class="container">
+  <div class="btn1"</div>
+<div class="btn1"</div>
+<div class="btn1"</div>
+</div>
 
-CSS
-
- .main{
+  </body>
+  </html>
+  
+  CSS!!!!!
+  
+  
+.header{
+  max-width: 100%;
+  min-width: 800px;
+  height: 100px;
+  display: flex;
+  background: linear-gradient(45deg, #FAE5E5, #6E5454);
+    border-radius: 10px;
+}
+.logo{
   display:flex;
-  width: 100%;
-  max-width: 960px;
-  min-width:400px;
-  min-height:100px;
-  margin:0 auto 50px;
-  color: white;
-}
-.grid{
-  width: 100%;
-  max-width: 960px;
-  min-width:400px;
-  margin:0 auto;
-  padding: 0 30px;
-    display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-}
-.items{
-  background-color: black;
-  min-height:200px;
-  margin:10px 10px 20px;
-  color: white;
-  font-size: 40px;
-  flex: 1 1 calc(33.33% - 20px);
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-.img_photo{
-  background-image:url(https://s2.logaster.com/static/v3/img/products/logo.png);
+  width:80px;
+  height:80px;
+   margin: 10px 10px;
+  border-radius: 5px;
+background-image: url(https://img1.freepng.ru/20171221/gke/white-dove-transparent-png-clipart-5a3c5413aa4282.2629234615139031236974.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: white;
+  background-size: cover;
+}
+.subscribelogo{
+  display: flex;
+  width:120px;
+  height:30px;
+  margin: 30px 5px;
+  font-size: 15px;
+  Justify-content: center;
+  align-content: center;
+}
+.follow{
+  display: flex;
+  width:120px;
+  height:50px;
+  margin:20px 40px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR88sawEwMqYIv9REx35Ob_v4RuHLj4tOFKow&usqp=CAU);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
   
 }
-.img1{
-  background-image:url(https://s2.logaster.com/static/v3/img/products/logo.png);
-  background-repeat: no-repeat;
-  background-position: center -38px;
-  background-color: yellow;
+.text_center{
+  display: flex;
+  width:600px;
+  height:70px;
+  margin:10px 140px;
+}
+  .container{
+    display: flex;
+    width: 22%;
+    height: 80px;
+    border:1px solid black;
+     }
   
+.btn1{
+  
+  border:1px solid black;
+  width: 80px;
+  height: 60px;
+  margin: 1px 90px 0px;
+  
+  
+}
+.list{
+  width: 100px;
+  height: 80px;
 }
